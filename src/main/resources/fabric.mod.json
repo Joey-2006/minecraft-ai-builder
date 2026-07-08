@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "aibuilder",
+  "version": "${version}",
+  "name": "AI Builder",
+  "description": "Exposes a local HTTP API for AI agents to build, scan, and control the Minecraft world.",
+  "authors": ["Joey"],
+  "contact": {
+    "sources": "https://github.com/joey/minecraft-ai-builder"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.joey.aibuilder.AIBuilderMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

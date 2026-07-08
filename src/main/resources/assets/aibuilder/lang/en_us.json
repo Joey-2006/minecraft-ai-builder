@@ -1,0 +1,10 @@
+{
+  "key.aibuilder.open_chat": "Open AI Builder Chat",
+  "category.aibuilder": "AI Builder",
+  "aibuilder.command.status": "AI Builder: HTTP server is %s on port %s",
+  "aibuilder.command.reload": "AI Builder config reloaded",
+  "aibuilder.command.start": "HTTP server started on port %s",
+  "aibuilder.command.stop": "HTTP server stopped",
+  "aibuilder.command.error.no_permission": "You don't have permission to use this command",
+  "aibuilder.command.error.server_not_running": "Server is not running"
+}
